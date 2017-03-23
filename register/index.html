@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport' >
+	<title>Регистрация исполнителей на VseMastera.com.ua</title>
+	<meta name="description" content="Страница регистрации мастеров и салонов красоты на сервисе VseMastera.com.ua" />
+	<meta name="keywords" content="регистрация, мастера красоты, салоны красоты" />
+	<meta http-equiv="Cache-Control" content="no-cache" />
+
+	<link href="../assets/css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="../assets/css/adaptation.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+	<script type="text/javascript" src="../assets/js/jquery-1.11.2.min.js"></script>
+	<link href="../favicon.ico" rel="icon" type="image/x-icon"/>
+
+
+</head>
+<body>
+<div id="main">
+
+	<div id="menu_mobile_button">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<div id="menu_mobile">
+		<ul>
+		</ul>
+	</div>
+
+	<div id="top1">
+		<a href="../index.html"><img class="lg" src="../assets/img/logo-new.png" alt="Логотип VseMastera.com.ua"></a>
+		<div id="login_mobile" style="float:right;margin-left:20px;">
+			<a class="bubblelinkh" href="../login/index.html">Войти</a>
+			<a class="bubblelinkh" href="../register/index.html">Регистрация</a>
+		</div>
+
+		<div class="dropdown">
+  <div class="dropbtn">+38 (044) 333-33-33</div>
+  <div class="dropdown-content">
+    <a href="tel:+38073-333-33-33">+38 (073) 333-33-33</a>
+    <a href="tel:+38096-333-33-33">+38 (096) 333-33-33</a>
+    <a href="tel:+38077-333-33-33">+38 (077) 333-33-33</a>
+  </div>
+</div>
+
+	</div>
+	<div style="clear: both"></div>
+	<div id="top2">
+		<div id="top2_1">
+			<div id="menu">
+				<ul>
+					<li><a href="http://vsemastera.com.ua/mastera/kiev/">Мастера красоты</a></li>
+					<li><a href="../salony/kiev/index.html">Салоны красоты</a></li>
+					<li><a href="index.html#">Акции и скидки</a></li>
+				</ul>
+			</div>
+			<div id="search">
+				<form action="index.html#" name="search">
+					<a href="index.html#"><img src="../assets/img/search.png" alt=""></a>
+					<input type="text" name="search" disabled placeholder="Поиск">
+				</form>
+			</div>
+		</div>
+	</div><div id="content">
+
+	  <div id="position" class="position_left">
+					<a href="../index.html">Главная</a> » <a href="http://vsemastera.com.ua/mastera/kiev/">Все мастера Киева</a> » Регистрация для мастеров и салонов красоты</div>
+				<div id="masters">
+	  	<div id="reg_master" class="master" style="border-radius: 5px 5px 0px 0px;margin-bottom: 0px;padding-bottom:15px;display: flex; width:55%;text-align:center; margin-left:auto !important; margin-right: auto !important";>
+
+		  <div class="master_right" style="width:100%;text-align:center;">
+
+<span style="font-size:200%;">Регистрация исполнителей</span><br>
+<div class="ui-segment" style="margin-bottom:20px;margin-top:25px;">
+     <span class="option active" id="s1" onclick="chkFowm(1);">Мастер красоты</span>
+     <span class="option " id="s2" onclick="chkFowm(2);">Салон красоты</span>
+ </div>
+
+
+	<form method="post" id="form1">
+	<input name="tp" type="hidden" value="1">
+
+		<div style="padding-bottom: 18px;font-size:90%;">
+	      	<div class="center_reg">
+	      		<input name="name" id="name" type="text" value="" placeholder="Фамилия" class="frms" style="width:311px;">
+	      	</div>
+	     </div>
+
+		<div style="padding-bottom: 18px;font-size:90%;">
+	      <div class="center_reg">
+	      	<input name="2name" id="2name" type="text" placeholder="Имя" value="" class="frms" style="width:311px;">
+	      </div>
+	    </div>
+
+		<div style="padding-bottom: 18px;font-size:90%;">
+	      <div class="center_reg">
+	      	<input name="email" id="email" type="text" placeholder="E-mail" class="frms" value="" style="width:311px;">
+	      </div>
+	    </div>
+
+		<div style="padding-bottom: 18px;font-size:90%;">
+	      <div class="center_reg">
+	      	<input name="phone" id="phone" type="text" maxlength="13" placeholder="Ваш номер телефона"  class="frms" value="" style="width:311px;">
+	      </div>
+
+	    </div>
+
+		<div style="padding-bottom: 18px;font-size:90%;">
+			<div class="center_reg">
+				<input value="" placeholder="Пароль" id="password" type="password" name="password" class="frms" style="width:311px;">
+			</div>
+        </div>
+
+		<div style="padding-bottom: 30px;font-size:90%;">
+			<div class="center_reg">
+				<input value="" placeholder="Пароль повторно" id="password_try" type="password" name="password_try" class="frms" style="width:311px;">
+			</div>
+        </div>
+
+		<div style="padding-bottom: 18px;font-size:90%;">
+			<button class="sendbut" style="width:311px;cursor:pointer;" type="submit">Зарегистрироваться</button>
+		</div>
+	</form>
+	<form method="post" id="form2"  style="display:none;">
+	<input name="tp" type="hidden" value="2">
+			<div style="padding-bottom: 18px;font-size:90%;">
+	      	<div class="center_reg">
+	      		<input name="name" id="name" type="text" value="" placeholder="Название салона" class="frms" style="width:311px;">
+	      	</div>
+	     </div>
+
+		<div style="padding-bottom: 18px;font-size:90%;">
+	      <div class="center_reg">
+	      	<input name="email" id="email" type="text" placeholder="E-mail" class="frms" value="" style="width:311px;">
+	      </div>
+	    </div>
+
+		<div style="padding-bottom: 18px;font-size:90%;">
+	      <div class="center_reg">
+	      	<input name="phone" id="phone2" type="text" maxlength="13" placeholder="Ваш номер телефона"  class="frms" value="" style="width:311px;">
+	      </div>
+
+	    </div>
+
+		<div style="padding-bottom: 18px;font-size:90%;">
+			<div class="center_reg">
+				<input value="" placeholder="Пароль" id="password" type="password" name="password" class="frms" style="width:311px;">
+			</div>
+        </div>
+
+		<div style="padding-bottom: 30px;font-size:90%;">
+			<div class="center_reg">
+				<input value="" placeholder="Пароль повторно" id="password_try" type="password" name="password_try" class="frms" style="width:311px;">
+			</div>
+        </div>
+
+		<div style="padding-bottom: 18px;font-size:90%;">
+			<button class="sendbut" style="width:311px;cursor:pointer;" type="submit">Зарегистрироваться</button>
+		</div>
+	</form>
+
+
+		  </div>
+
+
+
+		  		 </div>
+
+		  				<div id="reg_master_text" class="ratings" style="background: #fbf2e5;width:55%;margin-left: 22%;">
+<span style="font-size:90%;line-height:30px;">
+— <u>Очень внимательно</u> заполните все данные о себе.</br>
+</span>
+				</div></div></div>
+				<div id="footer" style="clear:both">
+					<div id="footer_1">
+						<div id="left_footer" class="hide_footer_1">
+							<div class='for_line'>
+								<b>СЕРВИС</b>
+								<div class="line_td"></div>
+							</div>
+								<ul>
+									<li><a href="index.html">О нас</a></li>
+									<li><a href="index.html">О рейтинге</a></li>
+									<li><a href="index.html">Партнерам</a></li>
+									<li><a href="index.html">Правила сервиса</a></li>
+								</ul>
+						</div>
+						<div id="middle_footer" class="hide_footer_2">
+							<div class='for_line'>
+								<b>КЛИЕНТУ</b>
+								<div class="line_td"></div>
+							</div>
+								<ul style="float: left">
+									<li><a href="http://vsemastera.com.ua/mastera/kiev/">Мастера красоты</a></li>
+									<li><a href="salony/kiev/index.html">Салоны</a></li>
+									<li><a href="uslugi/kiev/index.html">Все услуги</a></li>
+									<li><a href="index.html">Акции и скидки</a></li>
+
+								</ul>
+						</div>
+						<div style="clear: both"></div>
+						<div id="right_footer" class="hide_footer_3">
+							<div class='for_line'>
+								<b>ЗВОНИТЕ&nbsp;НАМ</b>
+								<div class="line_td"></div>
+							</div>
+							<div id="temp_div">
+								<span id="span_1">Понедельник - воскресенье с 9:00 до 20:00</span>
+								<div id="telefons">
+									<span id="tel_1">(044) 333 33 33</span>
+
+									<span><a id="callback" href="kiev/callback/index.html">Обратный звонок</a></span>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+<script type="text/javascript">
+	function chkFowm(num){
+		if(parseInt(num)===1){
+			$('#form2').hide();
+			$('#form1').show();
+			$('#s1').addClass("active")
+			$('#s2').removeClass("active");
+
+		}else{
+			$('#form1').hide();
+			$('#form2').show();
+			$('#s2').addClass("active")
+			$('#s1').removeClass("active");
+
+		}
+	}
+
+</script>
+  <script type="text/javascript">
+(function( $ ){
+    $.fn.extend({
+        Segment: function ( ) {
+			$(this).each(function (){
+				var self = $(this);
+				var wrapper = $("<div>",{class: "ui-segment"});
+				$(this).find("option").each(function (){
+					var option = $("<span>",{class: 'option',text: $(this).text(),value: $(this).val()});
+					if ($(this).is(":selected")){
+						option.addClass("active");
+					}
+					wrapper.append(option);
+				});
+				wrapper.find("span.option").click(function (){
+					wrapper.find("span.option").removeClass("active");
+					$(this).addClass("active");
+					self.val($(this).attr('value'));
+				});
+				$(this).after(wrapper);
+				$(this).hide();
+			});
+        }
+    });
+})(jQuery);
+
+jQuery(function ($){
+    $(".segment-select").Segment();
+});
+  </script>
+  <script type="text/javascript">
+jQuery(function($){
+   $("#phone").mask("+38 (999) 999-9999", {autoclear: false});
+});
+jQuery(function($){
+   $("#phone2").mask("+38 (999) 999-9999", {autoclear: false});
+});
+</script>
+<script type="text/javascript" src="../assets/js/jquery.maskedinput.js"></script><link rel="stylesheet" href="../assets/css/lightbox.min.css">
+<link rel="stylesheet" href="../assets/js/select2.min.css">
+
+<script src="../assets/js/jquery.modallink-1.0.0.js" type="text/javascript"></script>
+<script src="../assets/js/jquery.sticky-kit.min.js" type="text/javascript"></script>
+<script src="../assets/js/lightbox.min.js" type="text/javascript"></script>
+<script src="../assets/js/select2.min.js" type="text/javascript"></script>
+<script src="../assets/js/filter.js" type="text/javascript"></script>
+<script src="../assets/js/adaptive.js" type="text/javascript"></script>
+<script>
+$('#location').select2({
+  placeholder: 'Выберите район или метро',
+});
+$('#jobs').select2({
+  placeholder: 'Выберите услугу',
+});
+
+$('#id3').select2({
+  placeholder: 'Выберите район или метро',
+    allowClear: true
+});
+$('#id1').select2({
+  placeholder: 'Выберите услугу',
+    allowClear: true
+});
+	$("#right").stick_in_parent();
+    $(".master_zapis").modalLink({
+         data: {
+             foo: "bar"
+               }
+    });
+	    $("#callback").modalLink({
+         data: {
+             foo: "bar"
+               }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,304 @@
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport' >
+	<meta http-equiv="Cache-Control" content="no-cache" />
+	<link href="../../../assets/css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="../../../assets/css/adaptation.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<script type="text/javascript" src="../../../assets/js/jquery-1.11.2.min.js"></script>
+        <script src="../../../assets/js/datepicker.min.js"></script>
+	<script type="text/javascript" src="../../../assets/js/main.js"></script>
+</head>
+<body>
+
+
+<div class="modal-content">
+                    <form id="order-form" name="order-form" method="post">
+					<input type="hidden" value="3" name="usr"> 
+                        <div class="modal-left-side">
+
+
+<div class="side-section">
+    <div class="modal-doc-userpick">
+        <img src="../../../photos/mastera/2017/03/testovyy_0549_mini.jpg" alt="Мастер Тестовый " width="70" height="70" class="doc-userpick_picture">
+    </div>
+    <div class="side-section-main side-section-main_mod">
+        <div class="side-section-frst">
+
+		
+<span style="color: #5e6e71;font-size: 110%;font-weight:500;">Тестовый</br></span> 
+        </div>
+    </div>
+</div>
+
+<div class="side-section" id="affiliate_address" style="background-color: #f5f5f5;padding-top: 3px;padding-bottom: 3px;">
+    <div class="side-section-main">
+        <div class="side-section-header section-header__cost">
+
+		
+	<span class="zglvk" style="font-size: 100%;margin-left: 28px;    text-decoration: underline;    font-weight: 500;">Адреса:</span></br>
+
+	  		
+ <label><input type="radio" checked name="adres" value="4" data-price="0" class="pay"><span class="zapis_rbox"> м. Оболонь / <span style="color: #47a2a7;font-weight: 500;">Оболоняка 145</span></span></label>
+</br>
+
+		
+	  
+	   <div id='show-me' style='display:none'><input type="text" class="modal-form-input" style="margin-left:5px;margin-top:5px;width: 97%;" name="na_dom_adres" placeholder="Адрес куда должен приехать мастер" value=""  autocomplete="off"></div>
+
+        </div>
+    </div>
+</div>	  
+<div class="side-section" style="overflow: auto;padding-top: 4px;height: 55%;user-select: none;">
+    <div class="side-section-main">
+        <div class="side-section-header section-header__cost">
+		
+
+
+				  			
+			
+			
+	<div style="margin-bottom:7px;"><span class="zglvk" style="font-size: 100%;margin-left: 25px;text-decoration: underline;font-weight: 500; color: #b58269;">Маникюр:</span></br>
+	
+			
+                    <label><input type="checkbox" name="uslugi[]"  value="9" data-price="123" class="pay"> <span class="zapis_rbox">Классический маникюр (~<b>123</b> грн)</span></label>
+					</br>
+ 
+			
+			</div>
+					  
+		
+    </div>
+</div>
+    </div>        
+			<div id="summ" style="text-align:right;margin-top:20px;margin-right:15px;color: #ff8181;font-weight:500;">Примерная стоимость: <span style="font-weight:bold;color:#ff8181;font-size:150%;" id="pay_price"></span> грн</div>
+</div>
+
+<div class="side-section-content">
+</div>
+</div>                        <div class="modal-right-side">
+    <div class="modal-right-content">
+        <div class="content-order_footer mobile-border">
+<span class="zglvk">Ваши контактные данные:</span>
+    <div class="row row-none js-content-hide line-pad" style="margin-top: 15px;">
+        <div class="col-sm-6 col-sm_none" style="width:47%">
+            <div class="row row-none">
+                <div class="col-sm-12 col-sm_none">
+                    <input type="text" class="modal-form-input" name="fullname" id="fullname" placeholder="Имя, фамилия *"  onkeyup='checkParams()' value=""  autocomplete="off">
+                    </br>
+                </div>
+            </div>
+            <div class="row row-none">
+                <div class="col-sm-12 col-sm_none">
+                    <input type="text" class="modal-form-input phone-input-mask" id="phone" name="phone" placeholder="Номер телефон *"  onkeyup='checkParams()' value="" autocomplete="off"  >
+                    </br>
+                </div>
+            </div>
+            <div class="row row-none margin-bottom-0">
+                <div class="col-sm-12 col-sm_none">
+                    <input type="text" class="modal-form-input"  name="email" placeholder="E-mail"  value="" >
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-sm_none" style="width:50%;float: right;">
+            <textarea id="comment" cols="30" rows="7" class="modal-form-input"  name="comment" placeholder="Комментарий" ></textarea>
+        </div>
+    </div>
+
+<div style="clear: both;height: 25px;"></div>
+
+ 
+
+</div>
+
+<div class="line"></div>
+        <div class="row row-none">
+    <div class="col-sm-6 col-sm_none" >
+
+<span class="zglvk">Желаемая дата:</span>
+
+        <div class="modal-calendar" >
+<input id="minMaxExample" name="date" type="text" data-inline="true" style="display:none;margin-top:20px;"><script>$('#minMaxExample').datepicker({
+    minDate: new Date()
+})</script>
+        </div>
+    </div>
+    <div class="col-sm-6" >
+        <div class="modal-right-header mobile-border">
+<span class="zglvk">Желаемое время записи:</span>
+
+        </div>
+        <div class="modal-time">
+
+		 <div style="float:left;width:50%;font-size:90%;color: #5e6e71;">
+				<div class="modal-time-cell">
+                    <label><input type="checkbox" disabled value="09" name="timechb[]">09:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input type="checkbox" value="10" name="timechb[]">10:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input type="checkbox" value="11" name="timechb[]">11:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input type="checkbox" value="12" name="timechb[]">12:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input type="checkbox" value="13" name="timechb[]">13:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input type="checkbox" value="14" name="timechb[]">14:00</label>
+                </div></br></br>
+				<div class="modal-time-cell">
+                    <label style="color: #b58269;"><input type="checkbox"value="1" name="timenevajno">Время не важно</label>
+                </div>
+				
+</div>	
+<div style="float:left;width:50%;font-size:90%;color: #5e6e71;">	
+                <div class="modal-time-cell">
+                    <label><input type="checkbox" value="15" name="timechb[]">15:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input type="checkbox" value="16" name="timechb[]">16:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input type="checkbox" value="17" name="timechb[]">17:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input type="checkbox" value="18" name="timechb[]">18:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input type="checkbox" value="19" name="timechb[]">19:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input type="checkbox" disabled value="20" name="timechb[]">20:00</label>
+                </div>
+</div>	
+
+
+
+        </div>
+    </div>
+	
+	<div style="clear: both;height: 20px;"></div>
+				<div class="line" ></div>
+		<button class="master_zapis" type="submit" id='submit' disabled value="create_order" style="width:98%;">Отправить заявку</button>
+
+	
+</div>
+
+
+
+    </div>
+
+</div>
+
+                    </form>
+                                        <div id="dialog-window">
+    <div class="dialog-close"></div>
+    <div class="dialog-window-content"></div>
+</div>                </div>
+
+
+		<link href="../../../assets/css/datepicker.min.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="../../../assets/js/jquery.maskedinput.js"></script>
+        <script type="text/javascript" src="../../../assets/js/jquery.modallink-1.0.0.js"></script>
+<script type="text/javascript">	
+
+if (document.getElementById('na_dom').checked == true) {
+	            $('#show-me').show(); 
+				$('#summ').attr('style','text-align:right;margin-top:5px;margin-right:15px;color: #ff8181;font-weight:500;');
+}
+
+$(document).ready(function() {
+$('input[type="radio"]').click(function() {
+       if($(this).attr('id') == 'na_dom') {
+            $('#show-me').show();  
+$('#summ').attr('style','text-align:right;margin-top:5px;margin-right:15px;color: #ff8181;font-weight:500;');			
+       }
+
+       else {
+            $('#show-me').hide();   
+$('#summ').attr('style','text-align:right;margin-top:20px;margin-right:15px;color: #ff8181;font-weight:500;');		
+       }
+   });
+});	
+</script>	
+        <script type="text/javascript">
+        (function (w) {
+            $(".master_zapiss").click(function () {
+                w.$.modalLink("close");
+            });
+        })(window.parent);
+        </script>
+	<script>
+
+	var fio = $('#fullname').val();
+    var phone = $('#phone').val();
+
+	if(fio.length > 0) {
+        $('#fullname').attr('style','');
+	} else {
+        $('#fullname').attr('style','border: 1px solid #ff8181;');
+	}
+
+    if(phone.length == 18 && phone.charAt(17) != '_') {
+        $('#phone').attr('style','');
+	} else {
+        $('#phone').attr('style','border: 1px solid #ff8181;');
+	}
+	
+	if(fio.length > 0 && phone.length > 0 && phone.charAt(17) != '_') {
+        $('#submit').removeAttr('disabled');
+    } else {
+        $('#submit').attr('disabled', 'disabled');
+    }
+	
+	function checkParams() {
+	var fio = $('#fullname').val();
+    var phone = $('#phone').val();
+	
+    if(fio.length > 0) {
+        $('#fullname').attr('style','');
+	} else {
+        $('#fullname').attr('style','border: 1px solid #ff8181;');
+	}
+    if(phone.length == 18 && phone.charAt(17) != '_') {
+        $('#phone').attr('style','');
+	} else {
+        $('#phone').attr('style','border: 1px solid #ff8181;');
+	}
+	
+    if(fio.length > 0 && phone.length > 0 && phone.charAt(17) != '_') {
+        $('#submit').removeAttr('disabled');
+    } else {
+        $('#submit').attr('disabled', 'disabled');
+    }
+}
+
+
+
+
+////////// summa
+var $cbs = $('.pay');
+function calcUsage() {
+
+    var total = 0;
+    $cbs.each(function() {
+        if ($(this).is(":checked"))
+            total = parseFloat(total) + parseFloat($(this).attr('data-price'));
+    });
+    $("#pay_price").text(total);
+}
+$cbs.click(function() {
+    calcUsage();
+});
+calcUsage();
+</script>
+<script type="text/javascript">
+jQuery(function($){
+   $("#phone").mask("+38 (999) 999-9999", {autoclear: false});
+});
+</script>
+	</body>

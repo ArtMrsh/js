@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<title>Обратный звонок клиенту</title>
+	<meta name="description" content="Обратный звонок клиенту от VseMastera.com.ua" />
+	
+	<meta http-equiv="Cache-Control" content="no-cache" />
+	<link href="../../assets/css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="../../assets/css/adaptation.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+ <script src="../../assets/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+	
+<link href="../../favicon.ico" rel="icon" type="image/x-icon"/>
+</head>
+<body style="background-color: #f1f1f1;text-align:center;">
+
+		<div style="margin-top:12%;">
+		<span style="color:#cc8b76;font-size:170%;font-weight: 500;">Обратный звонок от VseMastera.com.ua</span><br/>
+				<span style="color:grey;font-size:90%;">Наш менеджер свяжется с Вами в ближайшее время.</span>
+		</div>
+<form method="post">			
+		<div style="margin-top:50px;">
+		<input name="name" placeholder="Ваше имя" value="" class="frms" style="width:270px;">
+		</div>
+		
+		<div style="margin-top:20px;">
+		<input name="phone" placeholder="Номер телефона" value="" id="phone" class="frms" style="width:270px;">
+		</div>
+
+		<div style="margin-top:15px;">
+        <button name="submit" type="submit" class="sendbut" style="width:270px;">Перезвонить</button>
+        </div>
+</form>	
+</body>
+<script type="text/javascript" src="../../assets/js/jquery.maskedinput.js"></script>
+<script type="text/javascript">
+jQuery(function($){
+   $("#phone").mask("+38 (999) 999-9999", {autoclear: false});
+});
+</script>
+</html>

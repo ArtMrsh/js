@@ -1,0 +1,556 @@
+usb-creator 2017-02-07 21:15:13,289 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-02-07 21:15:13,531 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-02-07 21:15:13,535 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sde
+usb-creator 2017-02-07 21:15:13,536 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-07 21:15:13,536 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-02-07 21:15:13,536 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-07 21:15:13,536 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-02-07 21:15:13,536 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-07 21:15:13,536 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2017-02-07 21:15:13,537 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-07 21:20:37,026 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/drives/WDC_WD2500AAKS_00B3A0_WD_WMAT12560941
+usb-creator 2017-02-07 21:20:37,026 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/drives/WDC_WD2500AAKS_00B3A0_WD_WMAT12560941
+usb-creator 2017-02-07 21:30:36,934 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/drives/WDC_WD2500AAKS_00B3A0_WD_WMAT12560941
+usb-creator 2017-02-07 21:30:36,934 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/drives/WDC_WD2500AAKS_00B3A0_WD_WMAT12560941
+usb-creator 2017-02-07 21:37:52,651 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-02-07 21:37:52,763 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-02-07 21:37:52,766 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sde
+usb-creator 2017-02-07 21:37:52,766 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-07 21:37:52,766 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-02-07 21:37:52,766 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-07 21:37:52,766 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-02-07 21:37:52,766 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-07 21:37:52,767 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2017-02-07 21:37:52,767 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-07 21:37:59,598 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16.iso
+usb-creator 2017-02-07 21:37:59,598 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16.iso', '-x', '/.disk/info']
+usb-creator 2017-02-07 21:37:59,666 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-07 21:37:59,666 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-07 21:37:59,672 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-07 21:38:05,708 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16.iso
+usb-creator 2017-02-07 21:38:05,708 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16.iso', '-x', '/.disk/info']
+usb-creator 2017-02-07 21:38:05,711 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-07 21:38:05,712 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-07 21:38:05,715 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-07 21:38:07,282 (DEBUG) backend.py:181: cancel_install
+usb-creator 2017-02-07 21:38:12,945 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16.iso
+usb-creator 2017-02-07 21:38:12,945 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16.iso', '-x', '/.disk/info']
+usb-creator 2017-02-07 21:38:12,950 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-07 21:38:12,950 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16/Windows.10.LTSB.x86-x64+Office2016.by.SmokieBlahBlah.12.05.16.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-07 21:38:12,955 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-07 21:38:15,166 (DEBUG) backend.py:181: cancel_install
+usb-creator 2017-02-07 22:38:50,987 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-02-07 22:38:51,366 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-02-07 22:38:51,370 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdf
+usb-creator 2017-02-07 22:38:51,370 (DEBUG) frontend.py:201: add_target: /org/freedesktop/UDisks2/block_devices/sdf
+usb-creator 2017-02-07 22:38:51,407 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sde
+usb-creator 2017-02-07 22:38:51,407 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-07 22:38:51,407 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-02-07 22:38:51,407 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-07 22:38:51,408 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-02-07 22:38:51,408 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-07 22:38:51,408 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2017-02-07 22:38:51,408 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-07 22:38:58,748 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Documents/Win10.iso
+usb-creator 2017-02-07 22:38:58,748 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Documents/Win10.iso', '-x', '/.disk/info']
+usb-creator 2017-02-07 22:38:58,829 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-07 22:38:58,829 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Documents/Win10.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-07 22:38:58,834 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-07 22:39:10,212 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Documents/Win10.iso
+usb-creator 2017-02-07 22:39:10,213 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Documents/Win10.iso', '-x', '/.disk/info']
+usb-creator 2017-02-07 22:39:10,217 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-07 22:39:10,217 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Documents/Win10.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-07 22:39:10,222 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-07 22:39:22,435 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Documents/Win10.iso
+usb-creator 2017-02-07 22:39:22,435 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Documents/Win10.iso', '-x', '/.disk/info']
+usb-creator 2017-02-07 22:39:22,439 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-07 22:39:22,439 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Documents/Win10.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-07 22:39:22,444 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-07 22:39:24,221 (DEBUG) backend.py:181: cancel_install
+usb-creator 2017-02-28 21:51:25,514 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-02-28 21:51:25,728 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-02-28 21:51:25,729 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 21:51:25,747 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:51:25,747 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 21:51:25,754 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:51:25,755 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 21:51:25,755 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 21:51:25,777 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:51:25,778 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 21:51:25,783 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:51:25,858 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-02-28 21:51:25,863 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-02-28 21:51:25,863 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 21:51:25,864 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-02-28 21:51:25,864 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 21:51:25,864 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2017-02-28 21:51:25,864 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 21:51:25,864 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sda
+usb-creator 2017-02-28 21:51:25,864 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 21:51:32,490 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 21:51:32,491 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 21:51:32,497 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:51:32,498 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 21:51:32,502 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:51:40,335 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 21:51:40,335 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 21:51:40,338 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:51:40,339 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 21:51:40,344 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:51:42,558 (DEBUG) backend.py:181: cancel_install
+usb-creator 2017-02-28 21:54:03,476 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-02-28 21:54:03,556 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-02-28 21:54:03,556 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 21:54:03,559 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:03,559 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 21:54:03,564 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:03,564 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 21:54:03,564 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 21:54:03,569 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:03,569 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 21:54:03,575 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:03,651 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-02-28 21:54:03,657 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-02-28 21:54:03,658 (DEBUG) frontend.py:201: add_target: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-02-28 21:54:03,684 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-02-28 21:54:03,684 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 21:54:03,684 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-02-28 21:54:03,684 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 21:54:03,685 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sda
+usb-creator 2017-02-28 21:54:03,685 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 21:54:03,685 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2017-02-28 21:54:03,685 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 21:54:11,246 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 21:54:11,246 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 21:54:11,251 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:11,252 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 21:54:11,255 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:19,275 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-02-28 21:54:19,275 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 21:54:19,278 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:19,279 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 21:54:19,283 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:29,169 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Windows10_v1511_10in1_karasidi/Windows10_v1511_10in1_karasidi.iso
+usb-creator 2017-02-28 21:54:29,169 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows10_v1511_10in1_karasidi/Windows10_v1511_10in1_karasidi.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 21:54:29,220 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:29,221 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows10_v1511_10in1_karasidi/Windows10_v1511_10in1_karasidi.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 21:54:29,227 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:47,085 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 21:54:47,085 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 21:54:47,089 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:47,090 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 21:54:47,093 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:58,298 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Windows10_v1511_10in1_karasidi/Windows10_v1511_10in1_karasidi.iso
+usb-creator 2017-02-28 21:54:58,298 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows10_v1511_10in1_karasidi/Windows10_v1511_10in1_karasidi.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 21:54:58,302 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:54:58,303 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows10_v1511_10in1_karasidi/Windows10_v1511_10in1_karasidi.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 21:54:58,311 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 21:55:14,867 (DEBUG) backend.py:181: cancel_install
+usb-creator 2017-02-28 22:21:48,155 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-02-28 22:21:48,327 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-02-28 22:21:48,328 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:21:48,376 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:21:48,377 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:21:48,381 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:21:48,382 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 22:21:48,382 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:21:48,399 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:21:48,400 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:21:48,406 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:21:48,550 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-02-28 22:21:48,555 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-02-28 22:21:48,555 (DEBUG) frontend.py:201: add_target: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-02-28 22:21:48,649 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-02-28 22:21:48,649 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 22:21:48,650 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-02-28 22:21:48,650 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 22:21:48,650 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sda
+usb-creator 2017-02-28 22:21:48,650 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 22:21:48,650 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2017-02-28 22:21:48,650 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 22:21:53,896 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 22:21:53,896 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:21:53,899 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:21:53,900 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:21:53,903 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:22:03,044 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-02-28 22:22:03,044 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:22:03,048 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:22:03,048 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:22:03,053 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:22:24,829 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Windows10_v1511_10in1_karasidi/Windows10_v1511_10in1_karasidi.iso
+usb-creator 2017-02-28 22:22:24,829 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows10_v1511_10in1_karasidi/Windows10_v1511_10in1_karasidi.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:22:24,832 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:22:24,833 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows10_v1511_10in1_karasidi/Windows10_v1511_10in1_karasidi.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:22:24,837 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:22:26,468 (DEBUG) backend.py:181: cancel_install
+usb-creator 2017-02-28 22:39:58,638 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-02-28 22:39:59,169 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-02-28 22:39:59,170 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:39:59,440 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:39:59,440 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:39:59,442 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:39:59,443 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 22:39:59,443 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:39:59,512 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:39:59,512 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:39:59,515 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:39:59,635 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-02-28 22:39:59,639 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-02-28 22:39:59,639 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 22:39:59,639 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-02-28 22:39:59,639 (DEBUG) frontend.py:201: add_target: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-02-28 22:39:59,654 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdf
+usb-creator 2017-02-28 22:39:59,655 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 22:39:59,655 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sde
+usb-creator 2017-02-28 22:39:59,655 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 22:39:59,655 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-02-28 22:39:59,655 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 22:40:11,455 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 22:40:11,455 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:40:11,458 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:40:11,459 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:40:11,461 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:41:08,294 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:08,294 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:08,319 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/1
+usb-creator 2017-02-28 22:41:08,421 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/2
+usb-creator 2017-02-28 22:41:08,496 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:08,496 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:08,497 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:08,497 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:19,735 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/3
+usb-creator 2017-02-28 22:41:19,808 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:19,808 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:19,809 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:19,809 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:20,195 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/4
+usb-creator 2017-02-28 22:41:20,332 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:20,332 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:25,930 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 22:41:25,930 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:41:25,933 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:41:25,934 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:41:25,937 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:41:39,558 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:39,558 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:39,559 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/5
+usb-creator 2017-02-28 22:41:41,930 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:41,930 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:41,945 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/6
+usb-creator 2017-02-28 22:41:43,747 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:43,747 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:43,751 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/7
+usb-creator 2017-02-28 22:41:44,600 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:44,600 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-02-28 22:41:44,617 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/8
+usb-creator 2017-02-28 22:42:17,708 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-02-28 22:42:17,708 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:42:17,712 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:42:17,712 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:42:17,717 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:42:25,268 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Windows10_v1511_10in1_karasidi/Windows10_v1511_10in1_karasidi.iso
+usb-creator 2017-02-28 22:42:25,268 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows10_v1511_10in1_karasidi/Windows10_v1511_10in1_karasidi.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:42:25,294 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:42:25,295 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Windows10_v1511_10in1_karasidi/Windows10_v1511_10in1_karasidi.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:42:25,300 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:42:27,619 (DEBUG) backend.py:181: cancel_install
+usb-creator 2017-02-28 22:43:10,597 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-02-28 22:43:10,669 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-02-28 22:43:10,669 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:43:10,673 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:43:10,674 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:43:10,677 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:43:10,677 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 22:43:10,677 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:43:10,682 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:43:10,682 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:43:10,685 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:43:10,728 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-02-28 22:43:10,732 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-02-28 22:43:10,732 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 22:43:10,732 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-02-28 22:43:10,732 (DEBUG) frontend.py:201: add_target: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-02-28 22:43:10,757 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdf
+usb-creator 2017-02-28 22:43:10,757 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 22:43:10,757 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sde
+usb-creator 2017-02-28 22:43:10,757 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 22:43:10,758 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-02-28 22:43:10,758 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-02-28 22:43:16,147 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-02-28 22:43:16,147 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-02-28 22:43:16,152 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:43:16,152 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-02-28 22:43:16,157 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-02-28 22:43:17,674 (DEBUG) backend.py:181: cancel_install
+usb-creator 2017-03-02 20:36:57,730 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-03-02 20:36:57,951 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-03-02 20:36:57,951 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:36:57,991 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:36:57,991 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:36:57,996 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:36:57,996 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-03-02 20:36:57,996 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:36:58,030 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:36:58,031 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:36:58,036 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:36:58,119 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-03-02 20:36:58,124 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdf
+usb-creator 2017-03-02 20:36:58,124 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:36:58,124 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sde
+usb-creator 2017-03-02 20:36:58,124 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:36:58,124 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-03-02 20:36:58,125 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:36:58,125 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-03-02 20:36:58,125 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:37:08,656 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-03-02 20:37:08,656 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:37:08,659 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:37:08,659 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:37:08,663 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:37:13,168 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-03-02 20:37:13,168 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:37:13,174 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:37:13,174 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:37:13,179 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:37:13,538 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/drives/WDC_WD5000BEVT_22A0RT0_WD_WXG1EC0WLU97
+usb-creator 2017-03-02 20:37:13,538 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/drives/WDC_WD5000BEVT_22A0RT0_WD_WXG1EC0WLU97
+usb-creator 2017-03-02 20:37:13,684 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/drives/WDC_WD2500AAKS_00B3A0_WD_WMAT12560941
+usb-creator 2017-03-02 20:37:13,684 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/drives/WDC_WD2500AAKS_00B3A0_WD_WMAT12560941
+usb-creator 2017-03-02 20:37:38,294 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-03-02 20:37:38,295 (DEBUG) frontend.py:201: add_target: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-03-02 20:37:46,131 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/0
+usb-creator 2017-03-02 20:37:46,132 (DEBUG) backend.py:138: device change /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-03-02 20:37:46,132 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdg1
+usb-creator 2017-03-02 20:37:54,011 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-03-02 20:37:54,011 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:37:54,014 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:37:54,015 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:37:54,019 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:37:55,681 (DEBUG) backend.py:181: cancel_install
+usb-creator 2017-03-02 20:39:27,257 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-03-02 20:39:27,338 (DEBUG) uiparser.py:974: UI version is 4.0
+usb-creator 2017-03-02 20:39:27,338 (DEBUG) uiparser.py:823: uiname is Dialog
+usb-creator 2017-03-02 20:39:27,345 (DEBUG) uiparser.py:784: toplevel widget is QDialog
+usb-creator 2017-03-02 20:39:27,346 (DEBUG) properties.py:400: setting property geometry
+usb-creator 2017-03-02 20:39:27,346 (DEBUG) properties.py:400: setting property maximumSize
+usb-creator 2017-03-02 20:39:27,346 (DEBUG) properties.py:400: setting property windowTitle
+usb-creator 2017-03-02 20:39:27,346 (DEBUG) uiparser.py:109: push QDialog Dialog
+usb-creator 2017-03-02 20:39:27,347 (DEBUG) uiparser.py:109: push QGridLayout gridLayout
+usb-creator 2017-03-02 20:39:27,368 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:39:27,373 (DEBUG) uiparser.py:109: push QLabel label
+usb-creator 2017-03-02 20:39:27,373 (DEBUG) uiparser.py:123: pop widget QLabel label
+usb-creator 2017-03-02 20:39:27,373 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7fc27d0e1708>
+usb-creator 2017-03-02 20:39:27,373 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:39:27,373 (DEBUG) uiparser.py:109: push QLabel source_label
+usb-creator 2017-03-02 20:39:27,373 (DEBUG) uiparser.py:123: pop widget QLabel source_label
+usb-creator 2017-03-02 20:39:27,373 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7fc27d0e1708>
+usb-creator 2017-03-02 20:39:27,427 (DEBUG) properties.py:400: setting property sizePolicy
+usb-creator 2017-03-02 20:39:27,427 (DEBUG) properties.py:400: setting property minimumSize
+usb-creator 2017-03-02 20:39:27,427 (DEBUG) properties.py:400: setting property rootIsDecorated
+usb-creator 2017-03-02 20:39:27,427 (DEBUG) uiparser.py:109: push QTreeWidget ui_source_list
+usb-creator 2017-03-02 20:39:27,474 (DEBUG) uiparser.py:123: pop widget QTreeWidget ui_source_list
+usb-creator 2017-03-02 20:39:27,474 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7fc27d0e1708>
+usb-creator 2017-03-02 20:39:27,475 (DEBUG) uiparser.py:109: push QHBoxLayout horizontalLayout_3
+usb-creator 2017-03-02 20:39:27,476 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:39:27,476 (DEBUG) uiparser.py:109: push QPushButton ui_add_source
+usb-creator 2017-03-02 20:39:27,476 (DEBUG) uiparser.py:123: pop widget QPushButton ui_add_source
+usb-creator 2017-03-02 20:39:27,477 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7fc27d0e1708>
+usb-creator 2017-03-02 20:39:27,477 (DEBUG) uiparser.py:117: pop layout QHBoxLayout horizontalLayout_3
+usb-creator 2017-03-02 20:39:27,477 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:39:27,477 (DEBUG) uiparser.py:109: push QLabel label_3
+usb-creator 2017-03-02 20:39:27,477 (DEBUG) uiparser.py:123: pop widget QLabel label_3
+usb-creator 2017-03-02 20:39:27,477 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7fc27d0e1708>
+usb-creator 2017-03-02 20:39:27,478 (DEBUG) properties.py:400: setting property minimumSize
+usb-creator 2017-03-02 20:39:27,478 (DEBUG) properties.py:400: setting property rootIsDecorated
+usb-creator 2017-03-02 20:39:27,478 (DEBUG) uiparser.py:109: push QTreeWidget ui_dest_list
+usb-creator 2017-03-02 20:39:27,478 (DEBUG) uiparser.py:123: pop widget QTreeWidget ui_dest_list
+usb-creator 2017-03-02 20:39:27,478 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7fc27d0e1708>
+usb-creator 2017-03-02 20:39:27,479 (DEBUG) uiparser.py:109: push QHBoxLayout horizontalLayout
+usb-creator 2017-03-02 20:39:27,479 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:39:27,479 (DEBUG) uiparser.py:109: push QLabel ui_dest_status
+usb-creator 2017-03-02 20:39:27,479 (DEBUG) uiparser.py:123: pop widget QLabel ui_dest_status
+usb-creator 2017-03-02 20:39:27,479 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7fc27d0e1708>
+usb-creator 2017-03-02 20:39:27,479 (DEBUG) uiparser.py:117: pop layout QHBoxLayout horizontalLayout
+usb-creator 2017-03-02 20:39:27,479 (DEBUG) uiparser.py:109: push QHBoxLayout horizontalLayout_2
+usb-creator 2017-03-02 20:39:27,480 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:39:27,480 (DEBUG) uiparser.py:109: push QPushButton ui_start_button
+usb-creator 2017-03-02 20:39:27,480 (DEBUG) uiparser.py:123: pop widget QPushButton ui_start_button
+usb-creator 2017-03-02 20:39:27,480 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7fc27d0e1708>
+usb-creator 2017-03-02 20:39:27,480 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:39:27,480 (DEBUG) uiparser.py:109: push QPushButton ui_quit_button
+usb-creator 2017-03-02 20:39:27,480 (DEBUG) uiparser.py:123: pop widget QPushButton ui_quit_button
+usb-creator 2017-03-02 20:39:27,480 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7fc27d0e1708>
+usb-creator 2017-03-02 20:39:27,480 (DEBUG) uiparser.py:117: pop layout QHBoxLayout horizontalLayout_2
+usb-creator 2017-03-02 20:39:27,480 (DEBUG) uiparser.py:117: pop layout QGridLayout gridLayout
+usb-creator 2017-03-02 20:39:27,481 (DEBUG) uiparser.py:123: pop widget QDialog Dialog
+usb-creator 2017-03-02 20:39:27,481 (DEBUG) uiparser.py:130: new topwidget None
+usb-creator 2017-03-02 20:39:27,765 (DEBUG) backend.py:22: Backend told to add: 
+usb-creator 2017-03-02 20:39:27,766 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-03-02 20:39:27,766 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:39:27,772 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:39:27,773 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:39:27,779 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:39:27,779 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-03-02 20:39:27,780 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:39:27,784 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:39:27,784 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:39:27,788 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:39:27,789 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-03-02 20:39:27,793 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-03-02 20:39:27,793 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:39:27,793 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-03-02 20:39:27,794 (DEBUG) frontend.py:236: add_target: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-03-02 20:39:27,803 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdf
+usb-creator 2017-03-02 20:39:27,804 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:39:27,804 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sde
+usb-creator 2017-03-02 20:39:27,804 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:39:27,804 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-03-02 20:39:27,804 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:39:33,743 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-03-02 20:39:33,744 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:39:33,750 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:39:33,750 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:39:33,756 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:41:25,591 (DEBUG) backend.py:181: cancel_install
+usb-creator 2017-03-02 20:42:11,452 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-03-02 20:42:11,487 (DEBUG) uiparser.py:974: UI version is 4.0
+usb-creator 2017-03-02 20:42:11,487 (DEBUG) uiparser.py:823: uiname is Dialog
+usb-creator 2017-03-02 20:42:11,487 (DEBUG) uiparser.py:784: toplevel widget is QDialog
+usb-creator 2017-03-02 20:42:11,487 (DEBUG) properties.py:400: setting property geometry
+usb-creator 2017-03-02 20:42:11,487 (DEBUG) properties.py:400: setting property maximumSize
+usb-creator 2017-03-02 20:42:11,488 (DEBUG) properties.py:400: setting property windowTitle
+usb-creator 2017-03-02 20:42:11,488 (DEBUG) uiparser.py:109: push QDialog Dialog
+usb-creator 2017-03-02 20:42:11,488 (DEBUG) uiparser.py:109: push QGridLayout gridLayout
+usb-creator 2017-03-02 20:42:11,488 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:42:11,489 (DEBUG) uiparser.py:109: push QLabel label
+usb-creator 2017-03-02 20:42:11,490 (DEBUG) uiparser.py:123: pop widget QLabel label
+usb-creator 2017-03-02 20:42:11,490 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7f19032e1708>
+usb-creator 2017-03-02 20:42:11,490 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:42:11,490 (DEBUG) uiparser.py:109: push QLabel source_label
+usb-creator 2017-03-02 20:42:11,490 (DEBUG) uiparser.py:123: pop widget QLabel source_label
+usb-creator 2017-03-02 20:42:11,490 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7f19032e1708>
+usb-creator 2017-03-02 20:42:11,492 (DEBUG) properties.py:400: setting property sizePolicy
+usb-creator 2017-03-02 20:42:11,492 (DEBUG) properties.py:400: setting property minimumSize
+usb-creator 2017-03-02 20:42:11,492 (DEBUG) properties.py:400: setting property rootIsDecorated
+usb-creator 2017-03-02 20:42:11,492 (DEBUG) uiparser.py:109: push QTreeWidget ui_source_list
+usb-creator 2017-03-02 20:42:11,511 (DEBUG) uiparser.py:123: pop widget QTreeWidget ui_source_list
+usb-creator 2017-03-02 20:42:11,511 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7f19032e1708>
+usb-creator 2017-03-02 20:42:11,511 (DEBUG) uiparser.py:109: push QHBoxLayout horizontalLayout_3
+usb-creator 2017-03-02 20:42:11,512 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:42:11,513 (DEBUG) uiparser.py:109: push QPushButton ui_add_source
+usb-creator 2017-03-02 20:42:11,513 (DEBUG) uiparser.py:123: pop widget QPushButton ui_add_source
+usb-creator 2017-03-02 20:42:11,513 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7f19032e1708>
+usb-creator 2017-03-02 20:42:11,513 (DEBUG) uiparser.py:117: pop layout QHBoxLayout horizontalLayout_3
+usb-creator 2017-03-02 20:42:11,513 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:42:11,513 (DEBUG) uiparser.py:109: push QLabel label_3
+usb-creator 2017-03-02 20:42:11,513 (DEBUG) uiparser.py:123: pop widget QLabel label_3
+usb-creator 2017-03-02 20:42:11,513 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7f19032e1708>
+usb-creator 2017-03-02 20:42:11,514 (DEBUG) properties.py:400: setting property minimumSize
+usb-creator 2017-03-02 20:42:11,514 (DEBUG) properties.py:400: setting property rootIsDecorated
+usb-creator 2017-03-02 20:42:11,514 (DEBUG) uiparser.py:109: push QTreeWidget ui_dest_list
+usb-creator 2017-03-02 20:42:11,514 (DEBUG) uiparser.py:123: pop widget QTreeWidget ui_dest_list
+usb-creator 2017-03-02 20:42:11,514 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7f19032e1708>
+usb-creator 2017-03-02 20:42:11,515 (DEBUG) uiparser.py:109: push QHBoxLayout horizontalLayout
+usb-creator 2017-03-02 20:42:11,515 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:42:11,515 (DEBUG) uiparser.py:109: push QLabel ui_dest_status
+usb-creator 2017-03-02 20:42:11,515 (DEBUG) uiparser.py:123: pop widget QLabel ui_dest_status
+usb-creator 2017-03-02 20:42:11,515 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7f19032e1708>
+usb-creator 2017-03-02 20:42:11,515 (DEBUG) uiparser.py:117: pop layout QHBoxLayout horizontalLayout
+usb-creator 2017-03-02 20:42:11,515 (DEBUG) uiparser.py:109: push QHBoxLayout horizontalLayout_2
+usb-creator 2017-03-02 20:42:11,515 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:42:11,515 (DEBUG) uiparser.py:109: push QPushButton ui_start_button
+usb-creator 2017-03-02 20:42:11,516 (DEBUG) uiparser.py:123: pop widget QPushButton ui_start_button
+usb-creator 2017-03-02 20:42:11,516 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7f19032e1708>
+usb-creator 2017-03-02 20:42:11,516 (DEBUG) properties.py:400: setting property text
+usb-creator 2017-03-02 20:42:11,516 (DEBUG) uiparser.py:109: push QPushButton ui_quit_button
+usb-creator 2017-03-02 20:42:11,516 (DEBUG) uiparser.py:123: pop widget QPushButton ui_quit_button
+usb-creator 2017-03-02 20:42:11,516 (DEBUG) uiparser.py:130: new topwidget <PyQt5.QtWidgets.QDialog object at 0x7f19032e1708>
+usb-creator 2017-03-02 20:42:11,516 (DEBUG) uiparser.py:117: pop layout QHBoxLayout horizontalLayout_2
+usb-creator 2017-03-02 20:42:11,516 (DEBUG) uiparser.py:117: pop layout QGridLayout gridLayout
+usb-creator 2017-03-02 20:42:11,516 (DEBUG) uiparser.py:123: pop widget QDialog Dialog
+usb-creator 2017-03-02 20:42:11,516 (DEBUG) uiparser.py:130: new topwidget None
+usb-creator 2017-03-02 20:42:11,593 (DEBUG) backend.py:22: Backend told to add: 
+usb-creator 2017-03-02 20:42:11,593 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-03-02 20:42:11,593 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:42:11,600 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:42:11,600 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:42:11,606 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:42:11,607 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-03-02 20:42:11,607 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:42:11,612 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:42:11,612 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:42:11,617 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:42:11,618 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-03-02 20:42:11,621 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-03-02 20:42:11,621 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:42:11,622 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-03-02 20:42:11,622 (DEBUG) frontend.py:236: add_target: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-03-02 20:42:11,627 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdf
+usb-creator 2017-03-02 20:42:11,627 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:42:11,627 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sde
+usb-creator 2017-03-02 20:42:11,627 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:42:11,627 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-03-02 20:42:11,627 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:42:17,634 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-03-02 20:42:17,634 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:42:17,643 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:42:17,643 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:42:17,651 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:42:24,623 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-03-02 20:42:24,699 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-03-02 20:42:24,699 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:42:24,703 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:42:24,703 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:42:24,706 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:42:24,706 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-03-02 20:42:24,706 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:42:24,709 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:42:24,709 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:42:24,713 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:42:24,770 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-03-02 20:42:24,774 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-03-02 20:42:24,774 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:42:24,774 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-03-02 20:42:24,775 (DEBUG) frontend.py:201: add_target: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-03-02 20:42:24,799 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdf
+usb-creator 2017-03-02 20:42:24,800 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:42:24,800 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sde
+usb-creator 2017-03-02 20:42:24,800 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:42:24,800 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-03-02 20:42:24,800 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 20:42:29,781 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-03-02 20:42:29,781 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 20:42:29,785 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:42:29,785 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 20:42:29,789 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 20:42:32,110 (DEBUG) backend.py:181: cancel_install
+usb-creator 2017-03-02 20:44:18,316 (DEBUG) backend.py:181: cancel_install
+usb-creator 2017-03-02 21:52:00,880 (DEBUG) backend.py:24: UDisks2Backend
+usb-creator 2017-03-02 21:52:01,179 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x32.iso
+usb-creator 2017-03-02 21:52:01,179 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 21:52:01,291 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 21:52:01,291 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x32.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 21:52:01,297 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 21:52:01,298 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-03-02 21:52:01,298 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 21:52:01,388 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 21:52:01,389 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 21:52:01,395 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 21:52:01,503 (DEBUG) backend.py:64: detect_devices
+usb-creator 2017-03-02 21:52:01,507 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdd
+usb-creator 2017-03-02 21:52:01,507 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 21:52:01,507 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-03-02 21:52:01,507 (DEBUG) frontend.py:201: add_target: /org/freedesktop/UDisks2/block_devices/sdg
+usb-creator 2017-03-02 21:52:01,530 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdf
+usb-creator 2017-03-02 21:52:01,531 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 21:52:01,531 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sde
+usb-creator 2017-03-02 21:52:01,531 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 21:52:01,531 (DEBUG) backend.py:104: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2017-03-02 21:52:01,531 (DEBUG) backend.py:118: not adding device: 0 byte disk.
+usb-creator 2017-03-02 21:52:08,931 (DEBUG) backend.py:22: Backend told to add: /home/thebigguy/Downloads/Win10_1607_English_x64.iso
+usb-creator 2017-03-02 21:52:08,932 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/info']
+usb-creator 2017-03-02 21:52:08,935 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 21:52:08,936 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', '/home/thebigguy/Downloads/Win10_1607_English_x64.iso', '-x', '/.disk/mini-info']
+usb-creator 2017-03-02 21:52:08,942 (ERROR) backend.py:154: Could not extract .disk/info.
+usb-creator 2017-03-02 21:52:10,748 (DEBUG) backend.py:181: cancel_install

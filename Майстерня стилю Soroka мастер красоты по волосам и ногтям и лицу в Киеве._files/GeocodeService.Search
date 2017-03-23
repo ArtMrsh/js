@@ -1,0 +1,75 @@
+/**/_xdc_._hzazxr && _xdc_._hzazxr( {
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1",
+               "short_name" : "1",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Yelyzavety Chavdar Street",
+               "short_name" : "Yelyzavety Chavdar St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Darnyts'kyi district",
+               "short_name" : "Darnyts'kyi district",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Kyiv",
+               "short_name" : "Kyiv",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kyiv City",
+               "short_name" : "Kyiv City",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ukraine",
+               "short_name" : "UA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "02000",
+               "short_name" : "02000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Yelyzavety Chavdar St, 1, Kyiv, Ukraine, 02000",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 50.3940522,
+                  "lng" : 30.6188897
+               },
+               "southwest" : {
+                  "lat" : 50.39344,
+                  "lng" : 30.6179082
+               }
+            },
+            "location" : {
+               "lat" : 50.39374609999999,
+               "lng" : 30.618399
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.3950950802915,
+                  "lng" : 30.6197479302915
+               },
+               "southwest" : {
+                  "lat" : 50.3923971197085,
+                  "lng" : 30.6170499697085
+               }
+            }
+         },
+         "place_id" : "ChIJccYa2bXF1EARgRbavBzW4gU",
+         "types" : [ "establishment", "point_of_interest", "premise" ]
+      }
+   ],
+   "status" : "OK"
+}
+ )

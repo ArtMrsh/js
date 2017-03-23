@@ -1,0 +1,13 @@
+[Added Associations]
+text/html=org.gnome.gedit.desktop;webbrowser-app.desktop;
+application/vnd.debian.binary-package=org.gnome.FileRoller.desktop;
+image/png=shotwell-viewer.desktop;gimp.desktop;
+text/plain=brackets.desktop;
+image/vnd.adobe.photoshop=display-im6.desktop;display-im6.q16.desktop;evince.desktop;
+image/jpeg=shotwell-viewer.desktop;eog.desktop;
+application/x-compressed-tar=mount-archive.desktop;
+application/x-shellscript=nautilus-autorun-software.desktop;vim.desktop;
+image/svg+xml=firefox.desktop;org.gnome.gedit.desktop;
+
+[Default Applications]
+application/x-shellscript=vim.desktop

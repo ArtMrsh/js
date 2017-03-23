@@ -1,0 +1,356 @@
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport' >
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<link href="assets/css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="assets/css/adaptation.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<script async="" src="lihnyak-marina_files/analytics.js"></script><script type="text/javascript" src="lihnyak-marina_files/jquery-1.js"></script>
+	<script type="text/javascript" src="lihnyak-marina_files/main.js"></script>
+    <script src="lihnyak-marina_files/datepicker.js"></script>
+</head>
+<body>
+
+
+<div class="modal-content">
+                    <form id="order-form" name="order-form" method="post">
+					<input value="1" name="usr" type="hidden"> 
+                        <div class="modal-left-side">
+
+
+<div class="side-section">
+    <div class="modal-doc-userpick">
+        <img src="lihnyak-marina_files/lihnyak-marina_0934_mini.jpg" alt="Мастер Лихняк Марина" class="doc-userpick_picture" width="70" height="70">
+    </div>
+    <div class="side-section-main side-section-main_mod">
+        <div class="side-section-frst">
+
+		
+<span style="color: #5e6e71;font-size: 110%;font-weight:500;">Лихняк<br>Марина</span> 
+        </div>
+    </div>
+</div>
+
+<div class="side-section" id="affiliate_address" style="background-color: #f5f5f5;padding-top: 3px;padding-bottom: 3px;">
+    <div class="side-section-main">
+        <div class="side-section-header section-header__cost">
+
+		
+	<span class="zglvk" style="font-size: 100%;margin-left: 28px;    text-decoration: underline;    font-weight: 500;">Адреса:</span><br>
+
+	  		
+ <label><input checked="checked" name="adres" value="1" data-price="0" class="pay" type="radio"><span class="zapis_rbox"> м. Лукьяновская / <span style="color: #47a2a7;font-weight: 500;">ул. В. Винниченко, 16</span></span></label>
+<br>
+
+		
+	  
+	  <label><input id="na_dom" data-price="200" name="adres" value="na_dom" class="pay" type="radio"><span class="zapis_rbox"> С выездом к клиенту (<b>+200 грн</b>)</span></label> <div id="show-me" style="display:none"><input class="modal-form-input" style="margin-left:5px;margin-top:5px;width: 97%;" name="na_dom_adres" placeholder="Адрес куда должен приехать мастер" autocomplete="off" type="text"></div>
+
+        </div>
+    </div>
+</div>	  
+<div class="side-section" style="overflow: auto;padding-top: 4px;height: 51%;user-select: none;">
+    <div class="side-section-main">
+        <div class="side-section-header section-header__cost">
+		
+
+
+				  			
+			
+			
+	<div style="margin-bottom:7px;"><span class="zglvk" style="font-size: 100%;margin-left: 25px;text-decoration: underline;font-weight: 500; color: #b58269;">Стрижка:</span><br>
+	
+			
+                    <label><input name="uslugi[]" value="2" data-price="200" class="pay" type="checkbox"> <span class="zapis_rbox">Мужская стрижка (<b>200</b> грн)</span></label>
+					<br>
+ 
+			
+                    <label><input name="uslugi[]" value="1" data-price="250" class="pay" type="checkbox"> <span class="zapis_rbox">Женская стрижка (<b>250</b> грн)</span></label>
+					<br>
+ 
+			
+			</div>
+			
+			
+			
+	<div style="margin-bottom:7px;"><span class="zglvk" style="font-size: 100%;margin-left: 25px;text-decoration: underline;font-weight: 500; color: #b58269;">Укладка:</span><br>
+	
+			
+                    <label><input name="uslugi[]" value="4" data-price="200" class="pay" type="checkbox"> <span class="zapis_rbox">Брашинг (от <b>200</b> грн)</span></label>
+					<br>
+ 
+			
+                    <label><input name="uslugi[]" value="3" data-price="250" class="pay" type="checkbox"> <span class="zapis_rbox">Укладка плойкой (от <b>250</b> грн)</span></label>
+					<br>
+ 
+			
+                    <label><input name="uslugi[]" value="8" data-price="250" class="pay" type="checkbox"> <span class="zapis_rbox">Укладка утюжком (от <b>250</b> грн)</span></label>
+					<br>
+ 
+			
+			</div>
+			
+			
+			
+	<div style="margin-bottom:7px;"><span class="zglvk" style="font-size: 100%;margin-left: 25px;text-decoration: underline;font-weight: 500; color: #b58269;">Окрашивание волос:</span><br>
+	
+			
+                    <label><input name="uslugi[]" value="6" data-price="1200" class="pay" type="checkbox"> <span class="zapis_rbox">Калифорнийское мелирование (от <b>1200</b> грн)</span></label>
+					<br>
+ 
+			
+                    <label><input name="uslugi[]" value="5" data-price="1500" class="pay" type="checkbox"> <span class="zapis_rbox">Брондирование волос (<b>1500</b> грн)</span></label>
+					<br>
+ 
+			
+                    <label><input name="uslugi[]" value="7" data-price="1400" class="pay" type="checkbox"> <span class="zapis_rbox">Омбре (<b>1400</b> грн)</span></label>
+					<br>
+ 
+			
+                    <label><input name="uslugi[]" value="140" data-price="800" class="pay" type="checkbox"> <span class="zapis_rbox">Осветление волос (от <b>800</b> грн)</span></label>
+					<br>
+ 
+			
+                    <label><input name="uslugi[]" value="139" data-price="750" class="pay" type="checkbox"> <span class="zapis_rbox">Тонирование волос (от <b>750</b> грн)</span></label>
+					<br>
+ 
+			
+			</div>
+					  
+		
+    </div>
+</div>
+    </div>        
+			<div id="summ" style="text-align:right;margin-top:20px;margin-right:15px;color: #ff8181;font-weight:500;">Примерная стоимость: <span style="font-weight:bold;color:#ff8181;font-size:150%;" id="pay_price">0</span> грн</div>
+</div>
+
+<div class="side-section-content">
+</div>
+</form></div>                        <div class="modal-right-side">
+    <div class="modal-right-content">
+     <div id="order_contacts" class="content-order_footer mobile-border">
+<span class="zglvk">Ваши контактные данные:</span>
+    <div class="row row-none js-content-hide line-pad" style="margin-top: 15px;">
+        <div class="col-sm-6 col-sm_none" style="width:47%">
+            <div class="row row-none">
+                <div class="col-sm-12 col-sm_none">
+                    <input class="modal-form-input" name="fullname" id="fullname" placeholder="Имя, фамилия *" onkeyup="checkParams()" autocomplete="off" style="border: 1px solid #ff8181;" type="text">
+                    <br>
+                </div>
+            </div>
+            <div class="row row-none">
+                <div class="col-sm-12 col-sm_none">
+                    <input class="modal-form-input phone-input-mask" id="phone" name="phone" placeholder="Номер телефон *" onkeyup="checkParams()" autocomplete="off" style="border: 1px solid #ff8181;" type="text">
+                    <br>
+                </div>
+            </div>
+            <div class="row row-none margin-bottom-0">
+                <div class="col-sm-12 col-sm_none">
+                    <input class="modal-form-input" name="email" placeholder="E-mail" type="text">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-sm_none" style="width:50%;float: right;">
+            <textarea id="comment" cols="30" rows="7" class="modal-form-input" name="comment" placeholder="Комментарий"></textarea>
+        </div>
+    </div>
+
+<div style="clear: both;height: 25px;"></div>
+
+ 
+
+</div>
+
+<div class="line"></div>
+<div id="order_date" class="row row-none">
+    <div class="col-sm-6 col-sm_none">
+		<span class="zglvk">Желаемая дата:</span>
+
+        <div class="modal-calendar">
+<input id="minMaxExample" name="date" data-inline="true" style="display:none;margin-top:20px;" type="text"><div class="datepicker-inline"><div class="datepicker"><i class="datepicker--pointer"></i><nav class="datepicker--nav"><div class="datepicker--nav-action -disabled-" data-action="prev"><svg><path d="M 17,12 l -5,5 l 5,5"></path></svg></div><div class="datepicker--nav-title">Март, <i>2017</i></div><div class="datepicker--nav-action" data-action="next"><svg><path d="M 14,12 l 5,5 l -5,5"></path></svg></div></nav><div class="datepicker--content"><div class="datepicker--days datepicker--body active"><div class="datepicker--days-names"><div class="datepicker--day-name">Пн</div><div class="datepicker--day-name">Вт</div><div class="datepicker--day-name">Ср</div><div class="datepicker--day-name">Чт</div><div class="datepicker--day-name">Пт</div><div class="datepicker--day-name -weekend-">Сб</div><div class="datepicker--day-name -weekend-">Вс</div></div><div class="datepicker--cells datepicker--cells-days"><div class="datepicker--cell datepicker--cell-day -other-month- -disabled-" data-date="27" data-month="1" data-year="2017">27</div><div class="datepicker--cell datepicker--cell-day -other-month- -disabled-" data-date="28" data-month="1" data-year="2017">28</div><div class="datepicker--cell datepicker--cell-day -disabled-" data-date="1" data-month="2" data-year="2017">1</div><div class="datepicker--cell datepicker--cell-day -disabled-" data-date="2" data-month="2" data-year="2017">2</div><div class="datepicker--cell datepicker--cell-day -disabled-" data-date="3" data-month="2" data-year="2017">3</div><div class="datepicker--cell datepicker--cell-day -weekend- -disabled-" data-date="4" data-month="2" data-year="2017">4</div><div class="datepicker--cell datepicker--cell-day -weekend- -disabled-" data-date="5" data-month="2" data-year="2017">5</div><div class="datepicker--cell datepicker--cell-day -disabled-" data-date="6" data-month="2" data-year="2017">6</div><div class="datepicker--cell datepicker--cell-day -disabled-" data-date="7" data-month="2" data-year="2017">7</div><div class="datepicker--cell datepicker--cell-day -disabled-" data-date="8" data-month="2" data-year="2017">8</div><div class="datepicker--cell datepicker--cell-day -disabled-" data-date="9" data-month="2" data-year="2017">9</div><div class="datepicker--cell datepicker--cell-day -disabled-" data-date="10" data-month="2" data-year="2017">10</div><div class="datepicker--cell datepicker--cell-day -weekend- -disabled-" data-date="11" data-month="2" data-year="2017">11</div><div class="datepicker--cell datepicker--cell-day -weekend- -disabled-" data-date="12" data-month="2" data-year="2017">12</div><div class="datepicker--cell datepicker--cell-day -disabled-" data-date="13" data-month="2" data-year="2017">13</div><div class="datepicker--cell datepicker--cell-day -disabled-" data-date="14" data-month="2" data-year="2017">14</div><div class="datepicker--cell datepicker--cell-day -disabled-" data-date="15" data-month="2" data-year="2017">15</div><div class="datepicker--cell datepicker--cell-day -disabled-" data-date="16" data-month="2" data-year="2017">16</div><div class="datepicker--cell datepicker--cell-day -current-" data-date="17" data-month="2" data-year="2017">17</div><div class="datepicker--cell datepicker--cell-day -weekend-" data-date="18" data-month="2" data-year="2017">18</div><div class="datepicker--cell datepicker--cell-day -weekend-" data-date="19" data-month="2" data-year="2017">19</div><div class="datepicker--cell datepicker--cell-day" data-date="20" data-month="2" data-year="2017">20</div><div class="datepicker--cell datepicker--cell-day" data-date="21" data-month="2" data-year="2017">21</div><div class="datepicker--cell datepicker--cell-day" data-date="22" data-month="2" data-year="2017">22</div><div class="datepicker--cell datepicker--cell-day" data-date="23" data-month="2" data-year="2017">23</div><div class="datepicker--cell datepicker--cell-day" data-date="24" data-month="2" data-year="2017">24</div><div class="datepicker--cell datepicker--cell-day -weekend-" data-date="25" data-month="2" data-year="2017">25</div><div class="datepicker--cell datepicker--cell-day -weekend-" data-date="26" data-month="2" data-year="2017">26</div><div class="datepicker--cell datepicker--cell-day" data-date="27" data-month="2" data-year="2017">27</div><div class="datepicker--cell datepicker--cell-day" data-date="28" data-month="2" data-year="2017">28</div><div class="datepicker--cell datepicker--cell-day" data-date="29" data-month="2" data-year="2017">29</div><div class="datepicker--cell datepicker--cell-day" data-date="30" data-month="2" data-year="2017">30</div><div class="datepicker--cell datepicker--cell-day" data-date="31" data-month="2" data-year="2017">31</div><div class="datepicker--cell datepicker--cell-day -weekend- -other-month-" data-date="1" data-month="3" data-year="2017">1</div><div class="datepicker--cell datepicker--cell-day -weekend- -other-month-" data-date="2" data-month="3" data-year="2017">2</div></div></div></div></div></div><script>$('#minMaxExample').datepicker({
+    minDate: new Date()
+})</script>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="modal-right-header mobile-border">
+<span class="zglvk">Желаемое время записи:</span>
+
+        </div>
+        <div class="modal-time">
+
+		 <div style="float:left;width:50%;font-size:90%;color: #5e6e71;">
+				<div class="modal-time-cell">
+                    <label><input value="09" name="timechb[]" type="checkbox">09:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input value="10" name="timechb[]" type="checkbox">10:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input value="11" name="timechb[]" type="checkbox">11:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input value="12" name="timechb[]" type="checkbox">12:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input value="13" name="timechb[]" type="checkbox">13:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input value="14" name="timechb[]" type="checkbox">14:00</label>
+                </div><br><br>
+				<div class="modal-time-cell">
+                    <label style="color: #b58269;"><input value="1" name="timenevajno" type="checkbox">Время не важно</label>
+                </div>
+				
+</div>	
+<div style="float:left;width:50%;font-size:90%;color: #5e6e71;">	
+                <div class="modal-time-cell">
+                    <label><input value="15" name="timechb[]" type="checkbox">15:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input value="16" name="timechb[]" type="checkbox">16:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input value="17" name="timechb[]" type="checkbox">17:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input value="18" name="timechb[]" type="checkbox">18:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input value="19" name="timechb[]" type="checkbox">19:00</label>
+                </div>
+                <div class="modal-time-cell">
+                    <label><input value="20" name="timechb[]" type="checkbox">20:00</label>
+                </div>
+</div>	
+
+
+
+        </div>
+    </div>
+	
+	<div style="clear: both;height: 20px;"></div>
+				<div class="line"></div>	
+</div>
+
+<button class="master_zapis" type="submit" id="submit" disabled="disabled" value="create_order" style="width:98%;">Отправить заявку</button>
+
+    </div>
+
+</div>
+
+                    
+                                        <div id="dialog-window">
+    <div class="dialog-close"></div>
+    <div class="dialog-window-content"></div>
+</div>                
+
+
+		<link href="lihnyak-marina_files/datepicker.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="lihnyak-marina_files/jquery.js"></script>
+        <script type="text/javascript" src="lihnyak-marina_files/jquery_002.js"></script>
+<script src="assets/js/adaptive.js" type="text/javascript"></script>
+<script type="text/javascript">	
+
+if (document.getElementById('na_dom').checked == true) {
+	            $('#show-me').show(); 
+				$('#summ').attr('style','text-align:right;margin-top:5px;margin-right:15px;color: #ff8181;font-weight:500;');
+}
+
+$(document).ready(function() {
+$('input[type="radio"]').click(function() {
+       if($(this).attr('id') == 'na_dom') {
+            $('#show-me').show();  
+$('#summ').attr('style','text-align:right;margin-top:5px;margin-right:15px;color: #ff8181;font-weight:500;');			
+       }
+
+       else {
+            $('#show-me').hide();   
+$('#summ').attr('style','text-align:right;margin-top:20px;margin-right:15px;color: #ff8181;font-weight:500;');		
+       }
+   });
+});	
+</script>	
+      <script type="text/javascript">
+        (function (w) {
+            $(".master_zapiss").click(function () {
+                w.$.modalLink("close");
+            });
+        })(window.parent);
+        </script>
+	<script>
+
+	var fio = $('#fullname').val();
+    var phone = $('#phone').val();
+
+	if(fio.length > 0) {
+        $('#fullname').attr('style','');
+	} else {
+        $('#fullname').attr('style','border: 1px solid #ff8181;');
+	}
+
+    if(phone.length == 18 && phone.charAt(17) != '_') {
+        $('#phone').attr('style','');
+	} else {
+        $('#phone').attr('style','border: 1px solid #ff8181;');
+	}
+	
+	if(fio.length > 0 && phone.length > 0 && phone.charAt(17) != '_') {
+        $('#submit').removeAttr('disabled');
+    } else {
+        $('#submit').attr('disabled', 'disabled');
+    }
+	
+	function checkParams() {
+	var fio = $('#fullname').val();
+    var phone = $('#phone').val();
+	
+    if(fio.length > 0) {
+        $('#fullname').attr('style','');
+	} else {
+        $('#fullname').attr('style','border: 1px solid #ff8181;');
+	}
+    if(phone.length == 18 && phone.charAt(17) != '_') {
+        $('#phone').attr('style','');
+	} else {
+        $('#phone').attr('style','border: 1px solid #ff8181;');
+	}
+	
+    if(fio.length > 0 && phone.length > 0 && phone.charAt(17) != '_') {
+        $('#submit').removeAttr('disabled');
+    } else {
+        $('#submit').attr('disabled', 'disabled');
+    }
+}
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90309674-1', 'auto');
+  ga('send', 'pageview');
+
+
+var $cbs = $('.pay');
+function calcUsage() {
+
+    var total = 0;
+    $cbs.each(function() {
+        if ($(this).is(":checked"))
+            total = parseFloat(total) + parseFloat($(this).attr('data-price'));
+    });
+    $("#pay_price").text(total);
+}
+$cbs.click(function() {
+    calcUsage();
+});
+calcUsage();
+</script>
+<script type="text/javascript">
+jQuery(function($){
+   $("#phone").mask("+38 (999) 999-9999", {autoclear: false});
+});
+</script>
+	</body></html>
