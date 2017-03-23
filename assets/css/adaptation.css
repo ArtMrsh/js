@@ -306,6 +306,48 @@ body{
 	.top_3-dropdown a:hover {
 			text-decoration: underline !important;
 	}
+	.hide_footer_1 li, .hide_footer_2 li {
+		border-bottom: 1px solid rgba(255,255,255, .3);
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+		width: 90% !important;
+		margin-left: 4% !important;
+	}
+	.hide_footer_2 ul {
+		float: none !important;
+	}
+	.hide_footer_2 li {
+		width: 90% !important;
+	}
+	.hide_footer_1 li:last-child, .hide_footer_2 li:last-child {
+		border-bottom: 0;
+	}
+	.hide_footer_1 li a, .hide_footer_2 li a, .hide_footer_3 li a {
+		font-size: 15px !important;
+	}
+	.hide_footer_1 ul, .hide_footer_2 ul, .hide_footer_3 ul {
+		margin-top: 0 !important;
+	}
+	.for_line b {
+		margin-bottom: 0 !important;
+	}
+	#span_1 {
+		margin-top: 0 !important;
+	}
+	#span_1, #tel_1, #callback {
+			border-bottom: 1px solid rgba(255,255,255, .3);
+			width: 90% !important;
+			box-sizing: content-box !important;
+			padding-bottom: 10px !important;
+			font-size: 15px !important;
+			margin-left: 4% !important;
+	}
+	.tel_span {
+		margin-left: 4% !important;
+	}
+	#callback {
+		border-bottom: 0 !important;
+	}
 }
 @media only screen and (max-width: 558px){
 	#left .doctor_adress .doctor_action a{
