@@ -286,14 +286,14 @@ body{
 		padding-left: 0 !important;
 		margin-left: 0 !important;
 		max-width: 100% !important;
-		border-bottom: 1px solid rgba(47,146,152, .8) !important;
+		border-bottom: 1px solid rgba(47,146,152, .9) !important;
 	}
 	.right_arr {
 		display: block;
 
 	}
 	.top_3-dropdown li {
-		border-bottom: 1px solid rgba(123,123,123, .3);
+		border-bottom: 1px solid rgba(123,123,123, .2);
 		padding: 12px 0 12px 0 !important;
 	}
 	.top_3-dropdown ul {
@@ -1246,7 +1246,7 @@ body{
 		padding: 0 !important;
 	}
 	#main #content_main #table_col div .span_div {
-		padding-bottom: 20px !important;
+		padding-bottom: 13px !important;
 	}
 	#searchform_title > p {
 		clear: both;
