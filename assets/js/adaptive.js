@@ -167,3 +167,10 @@ $(window).resize(function() {
 	master_card();
 	mobile_footer();
 });
+
+var dropChild = document.getElementsByClassName("dropdown_list_child");
+for(var i = 0; i < dropChild.length; i++) {
+	dropChild[i].onclick = function showDrop () {
+		this.parentNode.classList.toggle("show_drop_list");
+	}
+}
