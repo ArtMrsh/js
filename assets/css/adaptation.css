@@ -1352,7 +1352,7 @@ body{
 		display: block;
 	}
 	.drop_master {
-		max-height: 44px;
+		max-height: 40px;
 	}
 	.show_drop_list {
 		max-height: 12em;
