@@ -1348,11 +1348,14 @@ body{
 		display: block;
 		clear: both;
 	}
-	.show_drop_list {
-		max-height: 10em;
-	}
 	.triangle {
 		display: block;
+	}
+	.drop_master {
+		max-height: 44px;
+	}
+	.show_drop_list {
+		max-height: 12em;
 	}
 }
 /*@media only screen and (max-width: 390px) {

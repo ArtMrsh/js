@@ -2101,5 +2101,8 @@ border: 1px solid #b3b3b3;
 	cursor: pointer;
 	display: none;
 }
+.triangle_master {
+	top: 6px;
+}
 /*FIX END*/
 /*CHEKING*/
